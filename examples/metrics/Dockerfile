@@ -1,4 +1,4 @@
-FROM ruby:2.3.6-alpine
+FROM ruby:2.7.8-alpine
 
 RUN gem install sidekiq -v "~> 5.0"
 RUN gem install sidekiq-prometheus-exporter -v "~> 0.1"
