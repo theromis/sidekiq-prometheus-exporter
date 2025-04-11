@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'rack'
 require 'sidekiq/prometheus/exporter/version'
 require 'sidekiq/prometheus/exporter/exporters'
 
